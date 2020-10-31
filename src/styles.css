@@ -1,0 +1,140 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* padding: 0 16px; */
+  /* padding: 0 16px; */
+  margin: 0 auto;
+}
+header {
+  background-color: #f5ba13;
+  padding: 1px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.MuiBox-root .MuiBox-root-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newCustomStyle {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  color: hsl(198, 1%, 29%);
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background: #f1f5f8;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+.justifyAround {
+  display: flex;
+  justify-content: space-around;
+}
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.node {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  padding-bottom: 0;
+  width: 140px;
+  margin: 16px;
+  float: left;
+  margin-bottom: 0;
+}
+.h1Hover:hover {
+  background: #e6e4e4;
+  border-radius: 10px;
+}
+.breadcrumb {
+  font-size: 1.2em;
+  font-family: inherit;
+  /* resize: none; */
+  color: black;
+}
+.hoverEffect:hover {
+  background-color: #c5bbbb !important;
+  border-radius: 2px !important;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.label {
+  margin-top: 5px;
+  /* transform: rotate(2deg); */
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #f9f4ec;
+  font-size: 1.3rem;
+  display: inline;
+}
+.node h1 {
+  font-size: 1.1em;
+  padding: 15px;
+}
+.MuiDialog-paperWidthSm {
+  width: 600px !important;
+}
+.MuiCardContent-root {
+  cursor: pointer !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.m-5 {
+  margin: 5px !important;
+}
+.c-p {
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
